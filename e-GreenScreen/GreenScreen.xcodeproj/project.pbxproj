@@ -1,0 +1,293 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		62C08B051539B77100945413 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62C08B041539B77100945413 /* UIKit.framework */; };
+		62C08B071539B77100945413 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62C08B061539B77100945413 /* Foundation.framework */; };
+		62C08B091539B77100945413 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62C08B081539B77100945413 /* CoreGraphics.framework */; };
+		62C08B0F1539B77100945413 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 62C08B0D1539B77100945413 /* InfoPlist.strings */; };
+		62C08B111539B77100945413 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 62C08B101539B77100945413 /* main.m */; };
+		62C08B151539B77100945413 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 62C08B141539B77100945413 /* AppDelegate.m */; };
+		62C08B181539B77100945413 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62C08B171539B77100945413 /* ViewController.m */; };
+		62C08B1B1539B77100945413 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 62C08B191539B77100945413 /* ViewController.xib */; };
+		62C08B2C1539C10300945413 /* obama.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 62C08B2B1539C10300945413 /* obama.jpeg */; };
+		62C08B2F1539C23E00945413 /* green_screen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 62C08B2E1539C23E00945413 /* green_screen.jpg */; };
+		62C08B9C1539D4A700945413 /* key_test.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 62C08B9B1539D4A700945413 /* key_test.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		62C08B001539B77100945413 /* GreenScreen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GreenScreen.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		62C08B041539B77100945413 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		62C08B061539B77100945413 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		62C08B081539B77100945413 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		62C08B0C1539B77100945413 /* GreenScreen-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GreenScreen-Info.plist"; sourceTree = "<group>"; };
+		62C08B0E1539B77100945413 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		62C08B101539B77100945413 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		62C08B121539B77100945413 /* GreenScreen-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GreenScreen-Prefix.pch"; sourceTree = "<group>"; };
+		62C08B131539B77100945413 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		62C08B141539B77100945413 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		62C08B161539B77100945413 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		62C08B171539B77100945413 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		62C08B1A1539B77100945413 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		62C08B2B1539C10300945413 /* obama.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = obama.jpeg; sourceTree = "<group>"; };
+		62C08B2E1539C23E00945413 /* green_screen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = green_screen.jpg; sourceTree = "<group>"; };
+		62C08B9B1539D4A700945413 /* key_test.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = key_test.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		62C08AFD1539B77100945413 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62C08B051539B77100945413 /* UIKit.framework in Frameworks */,
+				62C08B071539B77100945413 /* Foundation.framework in Frameworks */,
+				62C08B091539B77100945413 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		62C08AF51539B77000945413 = {
+			isa = PBXGroup;
+			children = (
+				62C08B0A1539B77100945413 /* GreenScreen */,
+				62C08B031539B77100945413 /* Frameworks */,
+				62C08B011539B77100945413 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		62C08B011539B77100945413 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				62C08B001539B77100945413 /* GreenScreen.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		62C08B031539B77100945413 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				62C08B041539B77100945413 /* UIKit.framework */,
+				62C08B061539B77100945413 /* Foundation.framework */,
+				62C08B081539B77100945413 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		62C08B0A1539B77100945413 /* GreenScreen */ = {
+			isa = PBXGroup;
+			children = (
+				62C08B131539B77100945413 /* AppDelegate.h */,
+				62C08B141539B77100945413 /* AppDelegate.m */,
+				62C08B161539B77100945413 /* ViewController.h */,
+				62C08B171539B77100945413 /* ViewController.m */,
+				62C08B191539B77100945413 /* ViewController.xib */,
+				62C08B9B1539D4A700945413 /* key_test.jpg */,
+				62C08B2B1539C10300945413 /* obama.jpeg */,
+				62C08B2E1539C23E00945413 /* green_screen.jpg */,
+				62C08B0B1539B77100945413 /* Supporting Files */,
+			);
+			path = GreenScreen;
+			sourceTree = "<group>";
+		};
+		62C08B0B1539B77100945413 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				62C08B0C1539B77100945413 /* GreenScreen-Info.plist */,
+				62C08B0D1539B77100945413 /* InfoPlist.strings */,
+				62C08B101539B77100945413 /* main.m */,
+				62C08B121539B77100945413 /* GreenScreen-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		62C08AFF1539B77100945413 /* GreenScreen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62C08B1E1539B77100945413 /* Build configuration list for PBXNativeTarget "GreenScreen" */;
+			buildPhases = (
+				62C08AFC1539B77100945413 /* Sources */,
+				62C08AFD1539B77100945413 /* Frameworks */,
+				62C08AFE1539B77100945413 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GreenScreen;
+			productName = GreenScreen;
+			productReference = 62C08B001539B77100945413 /* GreenScreen.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		62C08AF71539B77000945413 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = Gutpela;
+			};
+			buildConfigurationList = 62C08AFA1539B77000945413 /* Build configuration list for PBXProject "GreenScreen" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 62C08AF51539B77000945413;
+			productRefGroup = 62C08B011539B77100945413 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				62C08AFF1539B77100945413 /* GreenScreen */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		62C08AFE1539B77100945413 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62C08B0F1539B77100945413 /* InfoPlist.strings in Resources */,
+				62C08B1B1539B77100945413 /* ViewController.xib in Resources */,
+				62C08B2C1539C10300945413 /* obama.jpeg in Resources */,
+				62C08B2F1539C23E00945413 /* green_screen.jpg in Resources */,
+				62C08B9C1539D4A700945413 /* key_test.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		62C08AFC1539B77100945413 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62C08B111539B77100945413 /* main.m in Sources */,
+				62C08B151539B77100945413 /* AppDelegate.m in Sources */,
+				62C08B181539B77100945413 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		62C08B0D1539B77100945413 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62C08B0E1539B77100945413 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		62C08B191539B77100945413 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62C08B1A1539B77100945413 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		62C08B1C1539B77100945413 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		62C08B1D1539B77100945413 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		62C08B1F1539B77100945413 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GreenScreen/GreenScreen-Prefix.pch";
+				INFOPLIST_FILE = "GreenScreen/GreenScreen-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		62C08B201539B77100945413 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GreenScreen/GreenScreen-Prefix.pch";
+				INFOPLIST_FILE = "GreenScreen/GreenScreen-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		62C08AFA1539B77000945413 /* Build configuration list for PBXProject "GreenScreen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62C08B1C1539B77100945413 /* Debug */,
+				62C08B1D1539B77100945413 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62C08B1E1539B77100945413 /* Build configuration list for PBXNativeTarget "GreenScreen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62C08B1F1539B77100945413 /* Debug */,
+				62C08B201539B77100945413 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 62C08AF71539B77000945413 /* Project object */;
+}
