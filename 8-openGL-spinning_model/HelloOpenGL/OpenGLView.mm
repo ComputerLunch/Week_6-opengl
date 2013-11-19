@@ -56,15 +56,26 @@ Singleton * g;
     glm::mat4 projection = glm::perspective(45.0f, ratio, NEAR, FAR); // <-frustum viewing pyramid
     projection = glm::translate(projection,glm::vec3(0.0f, -10.0f, -100.0f));
     glUniformMatrix4fv( g->_projectionUniform, 1, 0, glm::value_ptr(projection));
+   
     
-  
+   /* glm::vec3 camVec3 = glm::vec3(0.0,0.0,100.0);
+   
+    static float k = 0;
+    k += 0.1;
+    glm::vec3 bunnyVec3 = glm::vec3(0.0f ,10.0f * sinf(k),0.0f);
+    
+    glm::mat4 projection = glm::perspective(50.0f, 10.0f/10.0f, 10.0f, 40000.0f);
+    projection = projection * glm::lookAt(camVec3, glm::vec3(bunnyVec3.x , bunnyVec3.y, bunnyVec3.z ) , glm::vec3(0.0f,1.0f,0.0f));*/
+    
+    
     // 3 Set up view port
     glViewport(0, 0, self.frame.size.width, self.frame.size.height);
    
   
     // DRAW BUNNY
     glm::mat4 m = glm::mat4(1.0f);
-    m = glm::translate(m, glm::vec3(0,0 ,0) );
+   // m = glm::translate(m, bunnyVec3 );
+     m = glm::translate(m, glm::vec3(0,0 ,0) );
     m = glm::scale(m , glm::vec3(10.0f));
     
     static float rot = 0;
